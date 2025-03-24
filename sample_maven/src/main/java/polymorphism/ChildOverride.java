@@ -4,7 +4,7 @@ public class ChildOverride extends ParentOverride{
 	
 	public void sum(int a, int b)
 	{
-		super.sum(12, 14);
+		super.sum(12, 14);// call the parent 
 		int c = a+b;
 		System.out.println("Child sum is "+c);// override the child with parent so display only child. call parent through super key
 	}
