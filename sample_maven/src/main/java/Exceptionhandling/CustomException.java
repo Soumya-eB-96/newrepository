@@ -2,7 +2,7 @@ package Exceptionhandling;
 
 public class CustomException {
 
-	public static void main(String[] args) throws VotingException {
+	public static void main(String[] args) throws VotingException {// throws : to declare an exception
 		 int age = 15;
 		 if (age>18)
 		 {
